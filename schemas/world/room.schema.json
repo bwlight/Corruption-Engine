@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Room",
+  "type": "object",
+  "required": ["id", "description", "choices"],
+  "properties": {
+    "id": { "type": "string" },
+    "description": { "type": "string" },
+    "choices": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["text", "target"],
+        "properties": {
+          "text": { "type": "string" },
+          "target": { "type": "string" },
+          "requirements": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "effects": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "corruption": { "type": "integer" },
+                "flag": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -38,9 +38,14 @@ dev_dependencies:
   flutter_lints: ^3.0.0
 
 flutter:
+
   uses-material-design: true
 
   assets:
+    - assets/data/entities/entities.json
+    - assets/data/items/items.json
+    - assets/data/world/rooms/rooms.json
+    - assets/data/quests/main/first_steps.json
     - assets/data/threats.json
     - assets/data/hazards.json
     - assets/data/interactables.json

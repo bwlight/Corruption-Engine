@@ -1,0 +1,24 @@
+[
+  {
+    "id": "slime_basic",
+    "name": "Lesser Slime",
+    "description": "A weak, wobbling mass of corrupted gel.",
+    "stats": {
+      "hp": 12,
+      "atk": 3,
+      "def": 1
+    },
+    "tags": ["beast", "corrupted"]
+  },
+  {
+    "id": "villager_01",
+    "name": "Nervous Villager",
+    "description": "Keeps glancing at the woods as if something is watching.",
+    "stats": {
+      "hp": 20,
+      "atk": 2,
+      "def": 1
+    },
+    "tags": ["npc"]
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "start",
+    "description": "You awaken in a dim forest clearing. The air hums with corruption.",
+    "choices": [
+      {
+        "text": "Follow the faint path",
+        "target": "forest_path",
+        "requirements": [],
+        "effects": { "corruption": 1 }
+      },
+      {
+        "text": "Inspect the strange markings",
+        "target": "rune_stone",
+        "requirements": [],
+        "effects": {}
+      }
+    ]
+  },
+  {
+    "id": "forest_path",
+    "description": "The trees twist unnaturally as you walk. Something is watching.",
+    "choices": [
+      {
+        "text": "Return to clearing",
+        "target": "start",
+        "requirements": [],
+        "effects": {}
+      }
+    ]
+  }
+]

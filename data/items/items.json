@@ -1,0 +1,20 @@
+[
+  {
+    "id": "potion_small",
+    "name": "Small Healing Potion",
+    "type": "consumable",
+    "description": "Restores a small amount of vitality.",
+    "effects": [
+      { "stat": "hp", "amount": 10 }
+    ]
+  },
+  {
+    "id": "rusty_sword",
+    "name": "Rusty Sword",
+    "type": "equipment",
+    "description": "Barely sharp, but better than nothing.",
+    "effects": [
+      { "stat": "atk", "amount": 2 }
+    ]
+  }
+]

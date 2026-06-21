@@ -1,0 +1,50 @@
+{
+  "id": "first_steps",
+  "title": "First Steps Into Corruption",
+  "description": "Your journey begins in a forest tainted by an unknown force.",
+  "steps": [
+    {
+      "id": "intro",
+      "text": "You feel a strange pull deeper into the woods.",
+      "choices": [
+        {
+          "text": "Follow the pull",
+          "next": "follow_path",
+          "requirements": [],
+          "effects": { "corruption": 1 }
+        },
+        {
+          "text": "Resist and look around",
+          "next": "look_around",
+          "requirements": [],
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "follow_path",
+      "text": "The corruption thickens. You hear whispers.",
+      "choices": [
+        {
+          "text": "Push forward",
+          "next": "end",
+          "requirements": [],
+          "effects": { "flag": "heard_whispers" }
+        }
+      ]
+    },
+    {
+      "id": "look_around",
+      "text": "You find footprints leading away from the clearing.",
+      "choices": [
+        {
+          "text": "Follow the footprints",
+          "next": "end",
+          "requirements": [],
+          "effects": {}
+        }
+      ]
+    }
+  ],
+  "rewards": ["potion_small"]
+}
