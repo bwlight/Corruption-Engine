@@ -46,11 +46,6 @@ flutter:
     - assets/data/items/items.json
     - assets/data/world/rooms/rooms.json
     - assets/data/quests/main/first_steps.json
-    - assets/data/threats.json
-    - assets/data/hazards.json
-    - assets/data/interactables.json
-    - assets/data/rooms.json
-    - assets/data/items.json
 
   fonts:
     - family: Terminal
